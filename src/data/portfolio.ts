@@ -6,6 +6,7 @@ export const personal = {
   email: "a.frenenski1031@gmail.com",
   phone: "(945) 212–1638",
   github: "https://github.com/adrewfrenenski",
+  linkedin: "https://inkedin.com",
   yearsExperience: "14+",
 };
 

@@ -2,6 +2,7 @@ import { personal } from "@/data/portfolio";
 import { SectionHeading } from "./SectionHeading";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { GithubIcon } from "./GithubIcon";
+import { LinkedinIcon } from "./LinkedinIcon";
 
 export function Contact() {
   return (
@@ -50,6 +51,18 @@ export function Contact() {
             <p className="mb-1 text-sm font-medium text-muted">GitHub</p>
             <p className="text-sm font-semibold text-foreground group-hover:text-accent">
               @adrewfrenenski
+            </p>
+          </a>
+          <a
+            href={personal.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col items-center rounded-2xl border border-border bg-card p-8 text-center transition-all hover:border-accent hover:shadow-lg hover:shadow-accent/10"
+          >
+            <LinkedinIcon className="mb-4 h-8 w-8 text-accent" />
+            <p className="mb-1 text-sm font-medium text-muted">LinkedIn</p>
+            <p className="text-sm font-semibold text-foreground group-hover:text-accent">
+              Connect
             </p>
           </a>
         </div>

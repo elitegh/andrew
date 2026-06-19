@@ -1,6 +1,7 @@
 import { hero, personal } from "@/data/portfolio";
 import { ArrowDown, Mail, MapPin } from "lucide-react";
 import { GithubIcon } from "./GithubIcon";
+import { LinkedinIcon } from "./LinkedinIcon";
 
 export function Hero() {
   return (
@@ -56,6 +57,15 @@ export function Hero() {
           >
             <GithubIcon className="h-4 w-4" />
             GitHub
+          </a>
+          <a
+            href={personal.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-8 py-4 text-base font-semibold text-foreground transition-all hover:border-accent hover:text-accent"
+          >
+            <LinkedinIcon className="h-4 w-4" />
+            LinkedIn
           </a>
           <span className="flex items-center gap-2 text-sm text-muted">
             <MapPin className="h-4 w-4" />

@@ -1,22 +1,22 @@
 export const personal = {
   name: "Andrew Frenenski",
-  title: "Senior Software Engineer",
-  tagline: ".NET Full Stack Development | C#, React & Azure",
+  title: "Senior .NET Full Stack Engineer",
+  tagline: "C# & ASP.NET Core | React, TypeScript & Azure",
   location: "Austin, TX",
   email: "a.frenenski1031@gmail.com",
   phone: "(945) 212–1638",
-  github: "https://github.com/adrewfrenenski",
-  linkedin: "https://inkedin.com",
-  yearsExperience: "14+",
+  github: "https://github.com/andrew128",
+  linkedin: "https://www.linkedin.com/in/andrew-frenenski",
+  yearsExperience: "13+",
 };
 
 export const hero = {
   headline:
     "Building scalable full-stack applications with .NET, React, SQL Server, and Azure.",
   description:
-    "I am a Senior Software Engineer with 14+ years of experience designing, developing, and modernizing enterprise applications across cloud, SaaS, analytics, internal platforms, and customer-facing systems.",
+    "Senior .NET Full Stack Engineer with 13+ years of experience designing, building, and modernizing enterprise applications using C#, .NET, ASP.NET Core, React, TypeScript, SQL Server, and Azure.",
   subdescription:
-    "I specialize in building reliable backend services, REST APIs, React and TypeScript interfaces, SQL Server data workflows, and Azure-based microservices that improve performance, scalability, and long-term maintainability.",
+    "Strong background delivering cloud-native platforms, distributed systems, REST APIs, and responsive web applications that improve scalability, performance, and reliability.",
   primarySkills: [
     "C#",
     ".NET 8",
@@ -33,9 +33,9 @@ export const hero = {
 
 export const about = {
   paragraphs: [
-    "I am a senior full-stack engineer based in Austin, Texas, with deep experience across enterprise software, SaaS platforms, cloud-native systems, and internal business applications.",
-    "My work focuses on building high-performance applications using C#, .NET, ASP.NET Core, React, TypeScript, SQL Server, and Azure. Over the course of my career, I have helped modernize legacy platforms, improve API performance, optimize database workloads, reduce production defects, and deliver scalable systems used by internal teams and external customers.",
-    "I enjoy working across the full software lifecycle, from architecture and backend API design to frontend dashboards, database optimization, testing, CI/CD, and production support. I am especially strong in environments that require reliable engineering, clean service boundaries, performance tuning, and cross-functional delivery.",
+    "I am a Senior .NET Full Stack Engineer based in Austin, Texas, with 13+ years of experience designing, building, and modernizing enterprise applications across cloud-native platforms, SaaS products, and internal business systems.",
+    "My work focuses on C#, .NET, ASP.NET Core, React, TypeScript, SQL Server, and Azure. I deliver distributed systems, REST APIs, and responsive web applications that improve scalability, performance, and reliability — and I have led application modernization initiatives while optimizing high-volume data workloads.",
+    "I partner closely with engineering, product, QA, and DevOps teams to ship secure, high-quality software across the full lifecycle: architecture, backend APIs, frontend dashboards, database optimization, testing, CI/CD, and production support.",
   ],
 };
 
@@ -74,18 +74,19 @@ export const services = [
 
 export const skillCategories = [
   {
+    name: "Languages",
+    skills: ["C#", "TypeScript", "JavaScript", "SQL", "Python"],
+  },
+  {
     name: "Backend",
     skills: [
-      "C#",
       ".NET 8",
       "ASP.NET Core",
       "ASP.NET MVC",
-      "Web API",
+      "Entity Framework Core",
       "REST APIs",
       "Microservices",
-      "Entity Framework Core",
       "Distributed Systems",
-      "Service Decomposition",
     ],
   },
   {
@@ -97,9 +98,8 @@ export const skillCategories = [
       "JavaScript",
       "HTML5",
       "CSS3",
-      "Responsive UI",
-      "Reusable Component Design",
       "Dashboard Development",
+      "Reusable Component Design",
     ],
   },
   {
@@ -108,12 +108,10 @@ export const skillCategories = [
       "SQL Server",
       "PostgreSQL",
       "MongoDB",
-      "Entity Framework Core",
-      "Stored Procedures",
+      "Database Design",
       "Query Optimization",
       "Indexing",
-      "Schema Design",
-      "Transaction Optimization",
+      "Stored Procedures",
     ],
   },
   {
@@ -123,34 +121,22 @@ export const skillCategories = [
       "AWS",
       "Docker",
       "Azure DevOps",
-      "CI/CD",
       "Git",
-      "Cloud-Native Services",
+      "CI/CD",
       "Deployment Automation",
     ],
   },
   {
-    name: "Testing",
+    name: "Testing & Architecture",
     skills: [
       "xUnit",
       "NUnit",
       "Jest",
       "Unit Testing",
       "Integration Testing",
-      "QA Validation",
-      "Automated Test Coverage",
-    ],
-  },
-  {
-    name: "Architecture",
-    skills: [
-      "Microservices",
-      "REST Architecture",
-      "Distributed Caching",
-      "Performance Tuning",
-      "Legacy Modernization",
-      "Agile/Scrum",
-      "Scalable System Design",
+      "System Design",
+      "Application Modernization",
+      "Performance Optimization",
     ],
   },
 ];
@@ -162,14 +148,15 @@ export const experience = [
     period: "September 2023 – Present",
     location: "Remote",
     summary:
-      "At Microsoft, I work on full-stack enterprise applications and cloud operations workflows using C#, .NET 8, ASP.NET Core, React, TypeScript, Azure, and microservices.",
+      "Architecting enterprise-scale full-stack applications using C#, .NET 8, ASP.NET Core, React, TypeScript, Azure, and microservices to support cloud operations and internal business platforms.",
     highlights: [
-      "Designed REST APIs supporting more than 15M monthly requests across distributed services.",
-      "Built React dashboards for 500+ internal users to improve service visibility and operational decision-making.",
-      "Improved platform throughput by 38% through service decomposition, distributed caching, API optimization, and SQL Server tuning.",
-      "Reduced API response latency by 30% through asynchronous processing and backend performance engineering.",
-      "Reduced production defects by 25% through automated testing pipelines and integration testing.",
-      "Modernized legacy application modules into Azure-based microservices to improve scalability and maintainability.",
+      "Design REST APIs supporting high-volume internal workflows, improving service reliability and communication across distributed systems.",
+      "Develop React dashboards that provide real-time operational visibility, service health monitoring, and faster incident investigation.",
+      "Optimize Entity Framework Core data access and SQL Server execution plans for transaction-intensive workloads.",
+      "Increase platform throughput by around 30% through service decomposition, distributed caching, SQL optimization, and API performance tuning.",
+      "Reduce API response latency by about 25% through asynchronous processing, query optimization, and backend performance improvements.",
+      "Expand automated testing with xUnit and integration tests, reducing production defects and improving deployment confidence.",
+      "Modernize legacy applications into Azure-based microservices, improving scalability, maintainability, and deployment flexibility.",
     ],
   },
   {
@@ -178,14 +165,15 @@ export const experience = [
     period: "October 2020 – August 2023",
     location: "Austin, TX",
     summary:
-      "At Bazaarvoice, I helped scale full-stack SaaS workflows for analytics, reviews, and customer engagement platforms using C#, .NET Core, ASP.NET Core, React, AWS, and SQL Server.",
+      "Developed scalable SaaS applications using C#, .NET Core, ASP.NET Core, React, AWS, and SQL Server for customer engagement and analytics platforms.",
     highlights: [
-      "Optimized REST API workflows supporting millions of daily customer interactions.",
-      "Built React and TypeScript interfaces for customer engagement analytics.",
-      "Improved SQL Server transaction performance by 40% through indexing, query optimization, schema improvements, and Entity Framework tuning.",
-      "Reduced application latency by 32% through distributed caching, API optimization, and backend refactoring.",
-      "Created reusable React components adopted across multiple product teams.",
-      "Expanded automated test coverage with xUnit, Jest, and integration testing.",
+      "Optimized REST APIs supporting large-scale customer interactions, improving request throughput and backend reliability.",
+      "Built React and TypeScript dashboards that improved responsiveness and gave customers faster access to analytics and engagement insights.",
+      "Improved SQL Server performance by around 25% through indexing strategies, query optimization, schema improvements, and Entity Framework tuning.",
+      "Reduced application latency through distributed caching, API optimization, and backend service refactoring.",
+      "Created reusable React component libraries adopted across multiple engineering teams, reducing duplicate frontend development effort.",
+      "Expanded automated testing with xUnit, Jest, and integration testing, improving release quality and deployment stability.",
+      "Collaborated with product, QA, DevOps, and platform engineering teams to deliver customer-facing features with predictable, high-quality releases.",
     ],
   },
   {
@@ -194,14 +182,14 @@ export const experience = [
     period: "July 2017 – September 2020",
     location: "Austin, TX",
     summary:
-      "At Spiceworks, I developed full-stack IT asset management and monitoring workflows for enterprise users using C#, .NET Core, Angular, TypeScript, and SQL Server.",
+      "Developed enterprise IT asset management and monitoring applications using C#, .NET Core, Angular, TypeScript, and SQL Server.",
     highlights: [
-      "Developed .NET Core REST APIs supporting platform integrations, monitoring services, and reporting workflows.",
-      "Built Angular and TypeScript interfaces for infrastructure visibility and operational reporting.",
-      "Refactored monolithic application modules into microservice-oriented components.",
-      "Improved application performance by 28% through backend optimization, SQL tuning, caching, and API response improvements.",
-      "Automated recurring support tasks with Python scripts, eliminating 20+ hours per month of manual work.",
-      "Strengthened release stability through CI/CD automation and test validation.",
+      "Designed REST APIs supporting platform integrations, monitoring services, reporting, and operational workflows.",
+      "Built Angular and TypeScript interfaces that improved infrastructure visibility and operational reporting for IT teams.",
+      "Refactored monolithic application components into microservice-oriented services, improving deployment flexibility and maintainability.",
+      "Improved application performance through backend optimization, SQL tuning, caching, and API enhancements.",
+      "Automated recurring operational tasks with Python scripts, eliminating 20+ hours of manual support work per month.",
+      "Strengthened CI/CD pipelines, automated validation, and deployment workflows, improving release stability across engineering teams.",
     ],
   },
   {
@@ -210,28 +198,27 @@ export const experience = [
     period: "May 2014 – June 2017",
     location: "Austin, TX",
     summary:
-      "At Bloomfire, I built knowledge-management platform features using C#, ASP.NET MVC, JavaScript, SQL Server, Entity Framework, and REST APIs.",
+      "Developed knowledge management platform features using C#, ASP.NET MVC, JavaScript, SQL Server, Entity Framework, and REST APIs for business users.",
     highlights: [
-      "Developed backend APIs and database features for search, reporting, and administrative workflows.",
-      "Integrated third-party enterprise services into internal workflows to reduce duplicate data entry.",
-      "Optimized SQL Server queries, indexes, stored procedures, and data-access paths.",
-      "Created reusable backend and UI components across product modules.",
-      "Delivered customer-facing improvements in Agile environments with product, design, QA, and engineering teams.",
+      "Designed backend APIs and database functionality supporting search, reporting, administrative workflows, and customer-facing content management.",
+      "Integrated third-party enterprise systems, reducing duplicate data entry and improving data consistency across connected platforms.",
+      "Optimized SQL Server queries, indexes, stored procedures, and data access patterns, improving page-load performance and responsiveness.",
+      "Created reusable backend services and UI components that accelerated feature delivery and improved long-term maintainability.",
+      "Collaborated with product managers, designers, QA engineers, and developers to deliver customer-focused enhancements in Agile environments.",
     ],
   },
   {
-    company: "Dell",
+    company: "Dell Technologies",
     role: "Junior Software Engineer",
     period: "July 2012 – April 2014",
     location: "Austin, TX",
     summary:
-      "At Dell, I built enterprise web application features for internal business systems using C#, ASP.NET, JavaScript, SQL Server, and REST-based backend services.",
+      "Developed enterprise web application features using C#, ASP.NET, JavaScript, SQL Server, and REST-based backend services supporting internal business systems.",
     highlights: [
-      "Built enterprise web application features for internal operational systems.",
-      "Implemented backend APIs and SQL Server integrations across multiple departments.",
-      "Developed stored procedures, reporting queries, and data-access components.",
-      "Improved usability by resolving ASP.NET UI and reporting workflow issues.",
-      "Added unit tests and QA validation coverage to improve release stability.",
+      "Implemented backend APIs and SQL Server integrations that streamlined operational workflows across multiple departments.",
+      "Developed SQL Server stored procedures, reporting queries, and data-access components that improved reporting accuracy and reduced manual effort.",
+      "Resolved ASP.NET application and reporting issues, improving usability and reducing recurring support requests.",
+      "Added unit tests and QA validation to improve defect detection and release stability.",
     ],
   },
 ];
@@ -240,7 +227,7 @@ export const projects = [
   {
     title: "Cloud Operations Dashboard",
     description:
-      "A full-stack internal dashboard designed to improve visibility into service health, workflow status, operational metrics, and incident investigation.",
+      "A full-stack internal dashboard for real-time operational visibility, service health monitoring, and faster incident investigation.",
     technologies: [
       "C#",
       ".NET 8",
@@ -252,20 +239,20 @@ export const projects = [
       "REST APIs",
     ],
     highlights: [
-      "Built dashboard workflows for 500+ internal users.",
-      "Reduced incident investigation time by 35%.",
-      "Integrated service health, workflow status, and operational metrics.",
-      "Improved visibility across distributed platform services.",
+      "Built React dashboards for engineering and support teams.",
+      "Provided real-time service health and operational visibility.",
+      "Accelerated incident investigation across distributed platforms.",
+      "Integrated with Azure-based microservices and REST APIs.",
     ],
   },
   {
     title: "High-Volume REST API Platform",
     description:
-      "A backend API platform designed to support large-scale distributed service integrations and business workflows.",
+      "A backend API platform supporting high-volume internal workflows and communication across distributed systems.",
     technologies: [
       "C#",
       "ASP.NET Core",
-      ".NET",
+      ".NET 8",
       "REST APIs",
       "Microservices",
       "SQL Server",
@@ -273,16 +260,16 @@ export const projects = [
       "Azure",
     ],
     highlights: [
-      "Designed APIs processing more than 15M monthly requests.",
-      "Improved integration reliability across distributed services.",
-      "Reduced API latency by 30%.",
-      "Improved throughput through caching, query optimization, and service decomposition.",
+      "Designed REST APIs for high-volume distributed workflows.",
+      "Increased platform throughput by around 30%.",
+      "Reduced API response latency by about 25%.",
+      "Applied service decomposition, caching, and query optimization.",
     ],
   },
   {
     title: "SaaS Analytics Interface",
     description:
-      "A customer-facing analytics interface for engagement, reviews, reporting, and product insights.",
+      "A customer-facing analytics interface for engagement insights, reporting, and product visibility on a large-scale SaaS platform.",
     technologies: [
       "React",
       "TypeScript",
@@ -295,9 +282,9 @@ export const projects = [
     ],
     highlights: [
       "Built responsive React and TypeScript dashboards.",
-      "Improved data visibility for product users.",
-      "Created reusable frontend components adopted by multiple teams.",
-      "Reduced frontend development effort by 25%.",
+      "Gave customers faster access to analytics and engagement insights.",
+      "Created reusable React component libraries adopted across teams.",
+      "Expanded automated testing with Jest and integration tests.",
     ],
   },
   {
@@ -314,16 +301,16 @@ export const projects = [
       ".NET",
     ],
     highlights: [
-      "Improved SQL Server transaction performance by 40%.",
-      "Optimized queries, indexes, schema design, and data-access paths.",
-      "Improved page-load performance across customer workloads.",
-      "Strengthened consistency across transaction-heavy workflows.",
+      "Improved SQL Server performance by around 25%.",
+      "Optimized indexes, queries, schema design, and EF Core access.",
+      "Tuned execution plans for transaction-intensive workloads.",
+      "Strengthened consistency across high-volume data workflows.",
     ],
   },
   {
     title: "Legacy Application Modernization",
     description:
-      "A modernization initiative focused on refactoring monolithic application modules into scalable cloud-based services.",
+      "A modernization initiative focused on refactoring monolithic application modules into scalable Azure-based microservices.",
     technologies: [
       "C#",
       ".NET Core",
@@ -344,15 +331,11 @@ export const projects = [
 ];
 
 export const impactStats = [
-  { value: "15M+", label: "Monthly API Requests" },
-  { value: "38%", label: "Throughput Improvement" },
-  { value: "40%", label: "SQL Performance Gain" },
-  { value: "500+", label: "Dashboard Users" },
-  { value: "30%", label: "Latency Reduction" },
-  { value: "25%", label: "Fewer Production Defects" },
-  { value: "32%", label: "Application Latency Cut" },
+  { value: "30%", label: "Throughput Improvement" },
+  { value: "25%", label: "API Latency Reduction" },
+  { value: "25%", label: "SQL Performance Gain" },
   { value: "20+", label: "Hours Saved Monthly" },
-  { value: "14+", label: "Years of Experience" },
+  { value: "13+", label: "Years of Experience" },
 ];
 
 export const education = {

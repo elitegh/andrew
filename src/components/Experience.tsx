@@ -1,4 +1,4 @@
-import { experience } from "@/data/portfolio";
+import { experience, personal } from "@/data/portfolio";
 import { SectionHeading } from "./SectionHeading";
 import { Briefcase } from "lucide-react";
 
@@ -11,7 +11,7 @@ export function Experience() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <SectionHeading
           label="Experience"
-          title="14+ years building enterprise platforms."
+          title={`${personal.yearsExperience} years building enterprise platforms.`}
         />
         <div className="relative space-y-12">
           <div className="absolute left-[19px] top-2 hidden h-[calc(100%-2rem)] w-px bg-border md:block" />

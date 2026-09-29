@@ -41,14 +41,10 @@ export function Experience() {
                     <p className="mt-1 text-lg font-semibold text-accent">
                       {job.role}
                     </p>
-                    <p className="mt-2 text-sm text-muted">
-                      {job.employmentType} · {job.locationType}
-                    </p>
                   </div>
-                  <div className="text-sm text-muted md:text-right">
-                    <p className="font-medium">{job.period}</p>
-                    <p>{job.location}</p>
-                  </div>
+                  <p className="text-sm font-medium text-muted md:text-right">
+                    {job.period}
+                  </p>
                 </div>
                 <p className="mb-2 text-sm font-medium text-muted">
                   {job.industryFocus}

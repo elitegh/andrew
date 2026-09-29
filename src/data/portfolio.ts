@@ -152,9 +152,6 @@ export const experience = [
     url: "https://www.microsoft.com/",
     role: "Senior Software Engineer",
     period: "September 2023 – Present",
-    location: "Remote",
-    employmentType: "Contract",
-    locationType: "Remote",
     industryFocus:
       "Enterprise software, cloud computing, and technology platforms",
     summary:
@@ -177,9 +174,6 @@ export const experience = [
     url: "https://about.google/",
     role: "Senior Software Engineer",
     period: "October 2021 – August 2023",
-    location: "Remote",
-    employmentType: "Full-time",
-    locationType: "Remote",
     industryFocus:
       "Cloud computing, distributed systems, and internet technology",
     summary:
@@ -201,9 +195,6 @@ export const experience = [
     company: "Bazaarvoice",
     role: "Senior Software Engineer",
     period: "July 2017 – September 2021",
-    location: "Austin, TX",
-    employmentType: "Full-time",
-    locationType: "On-site",
     industryFocus:
       "E-commerce, consumer-generated content, and digital commerce platforms",
     summary:
@@ -220,9 +211,6 @@ export const experience = [
     company: "Bloomfire",
     role: "Software Engineer",
     period: "May 2014 – June 2017",
-    location: "Austin, TX",
-    employmentType: "Full-time",
-    locationType: "On-site",
     industryFocus:
       "Knowledge management, enterprise collaboration, and SaaS platforms",
     summary:
@@ -239,9 +227,6 @@ export const experience = [
     company: "Dell Technologies",
     role: "Junior Software Engineer",
     period: "July 2012 – April 2014",
-    location: "Austin, TX",
-    employmentType: "Full-time",
-    locationType: "On-site",
     industryFocus:
       "Enterprise technology, computing infrastructure, and business solutions",
     summary:

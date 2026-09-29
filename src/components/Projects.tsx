@@ -8,7 +8,7 @@ export function Projects() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <SectionHeading
           label="Featured Projects"
-          title="High-impact work across cloud, APIs, and analytics."
+          title="High-impact work across full stack, AI/ML, and data."
         />
         <div className="grid gap-8 lg:grid-cols-2">
           {projects.map((project, i) => (

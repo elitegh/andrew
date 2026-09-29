@@ -7,7 +7,7 @@ export function About() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <SectionHeading
           label="About"
-          title="Engineering at scale, from architecture to production."
+          title="Full stack, AI/ML, and data — from architecture to production."
         />
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-16">
           {about.paragraphs.map((paragraph, i) => (

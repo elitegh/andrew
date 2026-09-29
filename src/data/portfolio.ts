@@ -1,41 +1,43 @@
 export const personal = {
   name: "Andrew Frenenski",
-  title: "Senior .NET Full Stack Engineer",
-  tagline: "C# & ASP.NET Core | React, TypeScript & Azure",
+  title: "Senior Full Stack Engineer",
+  tagline: "Full Stack · AI/ML · Data Engineering",
   location: "Austin, TX",
   email: "a.frenenski1031@gmail.com",
-  phone: "(945) 212–1638",
+  phone: "(945) 212-1638",
   github: "https://github.com/andrew128",
-  linkedin: "https://www.linkedin.com/in/andrew-frenenski",
-  yearsExperience: "13+",
+  githubHandle: "@andrew128",
+  linkedin: "https://www.linkedin.com/in/andrew-frenenski-5a4827433",
+  linkedinHandle: "/in/andrew-frenenski-5a4827433",
+  yearsExperience: "14+",
 };
 
 export const hero = {
   headline:
-    "Building scalable full-stack applications with .NET, React, SQL Server, and Azure.",
+    "Building scalable full-stack platforms, AI/ML systems, and data pipelines that power modern products.",
   description:
-    "Senior .NET Full Stack Engineer with 13+ years of experience designing, building, and modernizing enterprise applications using C#, .NET, ASP.NET Core, React, TypeScript, SQL Server, and Azure.",
+    "Senior Full Stack Engineer with 14+ years of experience designing and shipping enterprise applications, intelligent services, and data platforms across cloud-native environments.",
   subdescription:
-    "Strong background delivering cloud-native platforms, distributed systems, REST APIs, and responsive web applications that improve scalability, performance, and reliability.",
+    "Strong background delivering distributed systems, ML-powered features, analytics pipelines, REST APIs, and responsive web applications that improve scalability, performance, and reliability.",
   primarySkills: [
-    "C#",
-    ".NET 8",
-    "ASP.NET Core",
-    "React",
+    "Python",
     "TypeScript",
-    "SQL Server",
+    "React",
+    "Node.js",
+    "AI/ML",
+    "Data Engineering",
+    "PostgreSQL",
+    "AWS",
     "Azure",
-    "REST APIs",
-    "Microservices",
-    "CI/CD",
+    "Kubernetes",
   ],
 };
 
 export const about = {
   paragraphs: [
-    "I am a Senior .NET Full Stack Engineer based in Austin, Texas, with 13+ years of experience designing, building, and modernizing enterprise applications across cloud-native platforms, SaaS products, and internal business systems.",
-    "My work focuses on C#, .NET, ASP.NET Core, React, TypeScript, SQL Server, and Azure. I deliver distributed systems, REST APIs, and responsive web applications that improve scalability, performance, and reliability — and I have led application modernization initiatives while optimizing high-volume data workloads.",
-    "I partner closely with engineering, product, QA, and DevOps teams to ship secure, high-quality software across the full lifecycle: architecture, backend APIs, frontend dashboards, database optimization, testing, CI/CD, and production support.",
+    "I am a Senior Full Stack Engineer based in Austin, Texas, with 14+ years of experience designing, building, and modernizing products across full-stack applications, AI/ML systems, and data engineering platforms.",
+    "My work spans frontend and backend development, machine learning services, analytics pipelines, and cloud infrastructure. I deliver distributed systems, intelligent features, and data workflows that improve scalability, performance, and decision-making.",
+    "I partner closely with engineering, product, data science, QA, and DevOps teams to ship secure, high-quality software across the full lifecycle: architecture, APIs, ML integration, data pipelines, frontend experiences, testing, CI/CD, and production support.",
   ],
 };
 
@@ -43,100 +45,103 @@ export const services = [
   {
     title: "Full-Stack Application Development",
     description:
-      "I build enterprise-grade applications using C#, .NET, ASP.NET Core, React, TypeScript, JavaScript, HTML5, CSS3, and modern API-driven architectures.",
+      "I build enterprise-grade applications using React, TypeScript, Node.js, Python, modern APIs, and cloud-native architectures end to end.",
   },
   {
-    title: "Backend Engineering",
+    title: "AI & Machine Learning",
     description:
-      "I design and develop REST APIs, distributed services, microservices, data-access layers, and integration workflows that support high-volume business and platform operations.",
+      "I design and integrate ML models, LLM-powered features, recommendation systems, and intelligent services into production applications.",
+  },
+  {
+    title: "Data Engineering",
+    description:
+      "I build reliable data pipelines, warehouses, ETL/ELT workflows, and analytics platforms that turn raw data into actionable product insights.",
+  },
+  {
+    title: "Backend & Distributed Systems",
+    description:
+      "I design REST and GraphQL APIs, microservices, event-driven services, and integration workflows for high-volume platform operations.",
   },
   {
     title: "Frontend Engineering",
     description:
-      "I create responsive React, Angular, and TypeScript interfaces for dashboards, analytics tools, monitoring workflows, reporting systems, and customer-facing applications.",
+      "I create responsive React and TypeScript interfaces for dashboards, analytics tools, ML workflows, reporting systems, and customer-facing products.",
   },
   {
-    title: "Cloud & Platform Modernization",
+    title: "Cloud & Platform Engineering",
     description:
-      "I modernize legacy systems into scalable cloud-based services using Azure, AWS, Docker, CI/CD pipelines, and service-oriented architecture.",
-  },
-  {
-    title: "Database Performance",
-    description:
-      "I optimize SQL Server, PostgreSQL, MongoDB, Entity Framework Core, queries, indexes, stored procedures, and transaction-heavy data workflows.",
-  },
-  {
-    title: "Testing & Reliability",
-    description:
-      "I improve release quality through automated testing, integration testing, xUnit, NUnit, Jest, CI/CD validation, and production defect reduction.",
+      "I modernize and operate scalable platforms using AWS, Azure, Docker, Kubernetes, CI/CD pipelines, and infrastructure automation.",
   },
 ];
 
 export const skillCategories = [
   {
     name: "Languages",
-    skills: ["C#", "TypeScript", "JavaScript", "SQL", "Python"],
+    skills: ["Python", "TypeScript", "JavaScript", "SQL", "Go", "Java"],
   },
   {
-    name: "Backend",
+    name: "Full Stack",
     skills: [
-      ".NET 8",
-      "ASP.NET Core",
-      "ASP.NET MVC",
-      "Entity Framework Core",
+      "React",
+      "Next.js",
+      "Node.js",
+      "FastAPI",
+      "GraphQL",
       "REST APIs",
       "Microservices",
       "Distributed Systems",
     ],
   },
   {
-    name: "Frontend",
+    name: "AI / ML",
     skills: [
-      "React",
-      "Angular",
-      "TypeScript",
-      "JavaScript",
-      "HTML5",
-      "CSS3",
-      "Dashboard Development",
-      "Reusable Component Design",
+      "Machine Learning",
+      "Deep Learning",
+      "LLMs",
+      "PyTorch",
+      "TensorFlow",
+      "scikit-learn",
+      "LangChain",
+      "MLOps",
+    ],
+  },
+  {
+    name: "Data Engineering",
+    skills: [
+      "Apache Spark",
+      "Airflow",
+      "dbt",
+      "Kafka",
+      "ETL / ELT",
+      "Data Warehousing",
+      "Feature Stores",
+      "Analytics Pipelines",
     ],
   },
   {
     name: "Databases",
     skills: [
-      "SQL Server",
       "PostgreSQL",
+      "MySQL",
       "MongoDB",
-      "Database Design",
+      "Redis",
+      "BigQuery",
+      "Snowflake",
       "Query Optimization",
-      "Indexing",
-      "Stored Procedures",
+      "Data Modeling",
     ],
   },
   {
     name: "Cloud & DevOps",
     skills: [
-      "Azure",
       "AWS",
+      "Azure",
+      "GCP",
       "Docker",
-      "Azure DevOps",
-      "Git",
+      "Kubernetes",
+      "Terraform",
       "CI/CD",
-      "Deployment Automation",
-    ],
-  },
-  {
-    name: "Testing & Architecture",
-    skills: [
-      "xUnit",
-      "NUnit",
-      "Jest",
-      "Unit Testing",
-      "Integration Testing",
-      "System Design",
-      "Application Modernization",
-      "Performance Optimization",
+      "Git",
     ],
   },
 ];
@@ -144,52 +149,71 @@ export const skillCategories = [
 export const experience = [
   {
     company: "Microsoft",
+    url: "https://www.microsoft.com/",
     role: "Senior Software Engineer",
     period: "September 2023 – Present",
     location: "Remote",
+    employmentType: "Contract",
+    locationType: "Remote",
+    industryFocus:
+      "Enterprise software, cloud computing, and technology platforms",
     summary:
-      "Architecting enterprise-scale full-stack applications using C#, .NET 8, ASP.NET Core, React, TypeScript, Azure, and microservices to support cloud operations and internal business platforms.",
+      "Architecting enterprise-scale full-stack platforms, AI-assisted workflows, and data-driven services using Python, TypeScript, React, cloud infrastructure, and microservices.",
     highlights: [
-      "Design REST APIs supporting high-volume internal workflows, improving service reliability and communication across distributed systems.",
-      "Develop React dashboards that provide real-time operational visibility, service health monitoring, and faster incident investigation.",
-      "Optimize Entity Framework Core data access and SQL Server execution plans for transaction-intensive workloads.",
-      "Increase platform throughput by around 30% through service decomposition, distributed caching, SQL optimization, and API performance tuning.",
-      "Reduce API response latency by about 25% through asynchronous processing, query optimization, and backend performance improvements.",
-      "Expand automated testing with xUnit and integration tests, reducing production defects and improving deployment confidence.",
-      "Modernize legacy applications into Azure-based microservices, improving scalability, maintainability, and deployment flexibility.",
+      "Design and develop scalable full-stack solutions for complex business requirements across enterprise cloud platforms.",
+      "Architect REST APIs and distributed services supporting high-volume internal workflows and platform reliability.",
+      "Build React and TypeScript dashboards that provide real-time operational visibility, service health monitoring, and faster incident investigation.",
+      "Integrate AI/ML capabilities into production workflows, improving automation, insights, and decision support.",
+      "Lead technical design and code reviews to maintain engineering quality and consistent architectural standards.",
+      "Optimize data access patterns and analytics pipelines for transaction-intensive and high-volume workloads.",
+      "Increase platform throughput by around 30% through service decomposition, distributed caching, and API performance tuning.",
+      "Reduce API response latency by about 25% through asynchronous processing, query optimization, and backend improvements.",
+      "Modernize legacy applications into cloud-native microservices, improving scalability, maintainability, and deployment flexibility.",
+      "Mentor developers across full-stack, AI/ML integration, and distributed systems best practices.",
+    ],
+  },
+  {
+    company: "Google",
+    url: "https://about.google/",
+    role: "Senior Software Engineer",
+    period: "October 2021 – August 2023",
+    location: "Remote",
+    employmentType: "Full-time",
+    locationType: "Remote",
+    industryFocus:
+      "Cloud computing, distributed systems, and internet technology",
+    summary:
+      "Designed and developed scalable full-stack systems, data platforms, and intelligent services for cloud infrastructure and high-throughput production environments.",
+    highlights: [
+      "Design and develop scalable, reliable software systems and services for cloud computing and distributed platforms.",
+      "Solve complex engineering challenges involving performance, scalability, and high-availability production systems.",
+      "Lead technical design and code reviews to improve software quality, consistency, and long-term maintainability.",
+      "Build and maintain APIs and distributed services supporting high-throughput cloud and data workloads.",
+      "Develop React and TypeScript interfaces for internal tooling, operational dashboards, and platform monitoring workflows.",
+      "Contribute to data pipeline and analytics initiatives that improved visibility into platform health and product usage.",
+      "Improve system reliability through asynchronous processing, caching strategies, and backend performance optimization.",
+      "Collaborate across engineering and data teams to deliver cross-service features with clear interfaces and shared ownership.",
+      "Strengthen release quality through automated testing, integration validation, and CI/CD improvements.",
+      "Mentor engineers on system design, full-stack delivery, and distributed systems practices.",
     ],
   },
   {
     company: "Bazaarvoice",
     role: "Senior Software Engineer",
-    period: "October 2020 – August 2023",
+    period: "July 2017 – September 2021",
     location: "Austin, TX",
+    employmentType: "Full-time",
+    locationType: "On-site",
+    industryFocus:
+      "E-commerce, consumer-generated content, and digital commerce platforms",
     summary:
-      "Developed scalable SaaS applications using C#, .NET Core, ASP.NET Core, React, AWS, and SQL Server for customer engagement and analytics platforms.",
+      "Developed scalable SaaS applications, analytics interfaces, and data-backed product features using React, TypeScript, Python, AWS, and modern backend services.",
     highlights: [
-      "Optimized REST APIs supporting large-scale customer interactions, improving request throughput and backend reliability.",
-      "Built React and TypeScript dashboards that improved responsiveness and gave customers faster access to analytics and engagement insights.",
-      "Improved SQL Server performance by around 25% through indexing strategies, query optimization, schema improvements, and Entity Framework tuning.",
-      "Reduced application latency through distributed caching, API optimization, and backend service refactoring.",
-      "Created reusable React component libraries adopted across multiple engineering teams, reducing duplicate frontend development effort.",
-      "Expanded automated testing with xUnit, Jest, and integration testing, improving release quality and deployment stability.",
-      "Collaborated with product, QA, DevOps, and platform engineering teams to deliver customer-facing features with predictable, high-quality releases.",
-    ],
-  },
-  {
-    company: "Spiceworks",
-    role: "Software Engineer",
-    period: "July 2017 – September 2020",
-    location: "Austin, TX",
-    summary:
-      "Developed enterprise IT asset management and monitoring applications using C#, .NET Core, Angular, TypeScript, and SQL Server.",
-    highlights: [
-      "Designed REST APIs supporting platform integrations, monitoring services, reporting, and operational workflows.",
-      "Built Angular and TypeScript interfaces that improved infrastructure visibility and operational reporting for IT teams.",
-      "Refactored monolithic application components into microservice-oriented services, improving deployment flexibility and maintainability.",
-      "Improved application performance through backend optimization, SQL tuning, caching, and API enhancements.",
-      "Automated recurring operational tasks with Python scripts, eliminating 20+ hours of manual support work per month.",
-      "Strengthened CI/CD pipelines, automated validation, and deployment workflows, improving release stability across engineering teams.",
+      "Optimized APIs supporting large-scale customer interactions, improving request throughput and backend reliability.",
+      "Built React and TypeScript dashboards that gave customers faster access to analytics and engagement insights.",
+      "Improved database and query performance by around 25% through indexing, schema improvements, and data-access tuning.",
+      "Created reusable React component libraries adopted across multiple engineering teams.",
+      "Expanded automated testing and integration coverage, improving release quality and deployment stability.",
     ],
   },
   {
@@ -197,14 +221,18 @@ export const experience = [
     role: "Software Engineer",
     period: "May 2014 – June 2017",
     location: "Austin, TX",
+    employmentType: "Full-time",
+    locationType: "On-site",
+    industryFocus:
+      "Knowledge management, enterprise collaboration, and SaaS platforms",
     summary:
-      "Developed knowledge management platform features using C#, ASP.NET MVC, JavaScript, SQL Server, Entity Framework, and REST APIs for business users.",
+      "Developed knowledge management platform features spanning backend APIs, search and reporting workflows, frontend experiences, and data integrations.",
     highlights: [
-      "Designed backend APIs and database functionality supporting search, reporting, administrative workflows, and customer-facing content management.",
-      "Integrated third-party enterprise systems, reducing duplicate data entry and improving data consistency across connected platforms.",
-      "Optimized SQL Server queries, indexes, stored procedures, and data access patterns, improving page-load performance and responsiveness.",
-      "Created reusable backend services and UI components that accelerated feature delivery and improved long-term maintainability.",
-      "Collaborated with product managers, designers, QA engineers, and developers to deliver customer-focused enhancements in Agile environments.",
+      "Designed backend APIs and data models supporting search, reporting, administrative workflows, and content management.",
+      "Integrated third-party enterprise systems, reducing duplicate data entry and improving consistency across platforms.",
+      "Optimized database queries, indexes, and data-access patterns, improving page-load performance and responsiveness.",
+      "Created reusable backend services and UI components that accelerated feature delivery.",
+      "Collaborated with product, design, QA, and engineering to deliver customer-focused enhancements in Agile environments.",
     ],
   },
   {
@@ -212,13 +240,17 @@ export const experience = [
     role: "Junior Software Engineer",
     period: "July 2012 – April 2014",
     location: "Austin, TX",
+    employmentType: "Full-time",
+    locationType: "On-site",
+    industryFocus:
+      "Enterprise technology, computing infrastructure, and business solutions",
     summary:
-      "Developed enterprise web application features using C#, ASP.NET, JavaScript, SQL Server, and REST-based backend services supporting internal business systems.",
+      "Developed enterprise web application features, reporting workflows, and backend services supporting internal business systems.",
     highlights: [
-      "Implemented backend APIs and SQL Server integrations that streamlined operational workflows across multiple departments.",
-      "Developed SQL Server stored procedures, reporting queries, and data-access components that improved reporting accuracy and reduced manual effort.",
-      "Resolved ASP.NET application and reporting issues, improving usability and reducing recurring support requests.",
-      "Added unit tests and QA validation to improve defect detection and release stability.",
+      "Implemented backend APIs and database integrations that streamlined operational workflows across departments.",
+      "Built reporting queries and data-access components that improved reporting accuracy and reduced manual effort.",
+      "Resolved application and reporting issues, improving usability and reducing recurring support requests.",
+      "Added automated tests and QA validation to improve defect detection and release stability.",
     ],
   },
 ];
@@ -229,38 +261,80 @@ export const projects = [
     description:
       "A full-stack internal dashboard for real-time operational visibility, service health monitoring, and faster incident investigation.",
     technologies: [
-      "C#",
-      ".NET 8",
-      "ASP.NET Core",
       "React",
       "TypeScript",
+      "Node.js",
+      "Python",
+      "PostgreSQL",
       "Azure",
-      "SQL Server",
       "REST APIs",
+      "Kubernetes",
     ],
     highlights: [
       "Built React dashboards for engineering and support teams.",
       "Provided real-time service health and operational visibility.",
       "Accelerated incident investigation across distributed platforms.",
-      "Integrated with Azure-based microservices and REST APIs.",
+      "Integrated with cloud-native microservices and REST APIs.",
     ],
   },
   {
-    title: "High-Volume REST API Platform",
+    title: "AI-Assisted Insights Platform",
     description:
-      "A backend API platform supporting high-volume internal workflows and communication across distributed systems.",
+      "An intelligent platform that combines ML models and LLM workflows with analytics interfaces for faster decision support.",
     technologies: [
-      "C#",
-      "ASP.NET Core",
-      ".NET 8",
-      "REST APIs",
-      "Microservices",
-      "SQL Server",
-      "Entity Framework Core",
-      "Azure",
+      "Python",
+      "PyTorch",
+      "LangChain",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS",
     ],
     highlights: [
-      "Designed REST APIs for high-volume distributed workflows.",
+      "Integrated ML and LLM capabilities into production product workflows.",
+      "Built APIs and services for model inference and feature retrieval.",
+      "Delivered React interfaces for exploring predictions and insights.",
+      "Improved automation and decision support across internal teams.",
+    ],
+  },
+  {
+    title: "Data Pipeline & Analytics Platform",
+    description:
+      "A data engineering platform for reliable ETL/ELT pipelines, warehousing, and analytics that power product and operational insights.",
+    technologies: [
+      "Python",
+      "Apache Spark",
+      "Airflow",
+      "dbt",
+      "Kafka",
+      "Snowflake",
+      "BigQuery",
+      "AWS",
+    ],
+    highlights: [
+      "Built scalable pipelines for batch and near-real-time data processing.",
+      "Modeled analytics-ready datasets for product and operations teams.",
+      "Improved data reliability through monitoring, validation, and orchestration.",
+      "Enabled faster reporting and insight delivery across the business.",
+    ],
+  },
+  {
+    title: "High-Volume API Platform",
+    description:
+      "A backend platform supporting high-volume workflows and communication across distributed full-stack and data systems.",
+    technologies: [
+      "Node.js",
+      "Python",
+      "FastAPI",
+      "REST APIs",
+      "Microservices",
+      "PostgreSQL",
+      "Redis",
+      "Kubernetes",
+    ],
+    highlights: [
+      "Designed APIs for high-volume distributed workflows.",
       "Increased platform throughput by around 30%.",
       "Reduced API response latency by about 25%.",
       "Applied service decomposition, caching, and query optimization.",
@@ -273,12 +347,12 @@ export const projects = [
     technologies: [
       "React",
       "TypeScript",
-      "C#",
-      ".NET Core",
-      "ASP.NET Core",
-      "SQL Server",
+      "Node.js",
+      "Python",
+      "PostgreSQL",
       "AWS",
       "Jest",
+      "GraphQL",
     ],
     highlights: [
       "Built responsive React and TypeScript dashboards.",
@@ -287,61 +361,22 @@ export const projects = [
       "Expanded automated testing with Jest and integration tests.",
     ],
   },
-  {
-    title: "SQL Server Performance Modernization",
-    description:
-      "A database optimization initiative focused on improving transaction performance, query speed, and reliability across enterprise workloads.",
-    technologies: [
-      "SQL Server",
-      "Entity Framework Core",
-      "Stored Procedures",
-      "Indexing",
-      "Query Optimization",
-      "C#",
-      ".NET",
-    ],
-    highlights: [
-      "Improved SQL Server performance by around 25%.",
-      "Optimized indexes, queries, schema design, and EF Core access.",
-      "Tuned execution plans for transaction-intensive workloads.",
-      "Strengthened consistency across high-volume data workflows.",
-    ],
-  },
-  {
-    title: "Legacy Application Modernization",
-    description:
-      "A modernization initiative focused on refactoring monolithic application modules into scalable Azure-based microservices.",
-    technologies: [
-      "C#",
-      ".NET Core",
-      "ASP.NET Core",
-      "Azure",
-      "Microservices",
-      "Docker",
-      "CI/CD",
-      "SQL Server",
-    ],
-    highlights: [
-      "Modernized legacy modules into Azure-based microservices.",
-      "Improved scalability, maintainability, and deployment flexibility.",
-      "Refactored tightly coupled components into service-oriented workflows.",
-      "Strengthened release reliability through automated testing and CI/CD.",
-    ],
-  },
 ];
 
 export const impactStats = [
   { value: "30%", label: "Throughput Improvement" },
   { value: "25%", label: "API Latency Reduction" },
-  { value: "25%", label: "SQL Performance Gain" },
-  { value: "20+", label: "Hours Saved Monthly" },
-  { value: "13+", label: "Years of Experience" },
+  { value: "25%", label: "Data Performance Gain" },
+  { value: "3", label: "Focus Areas: FS · AI · Data" },
+  { value: "14+", label: "Years of Experience" },
 ];
 
 export const education = {
   school: "The University of Texas at Austin",
+  url: "https://www.utexas.edu/",
   degree: "Bachelor of Science in Computer Science",
   period: "2008 – 2012",
+  location: "Austin, TX",
 };
 
 export const navLinks = [

@@ -21,24 +21,27 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Andrew Frenenski | Senior .NET Full Stack Engineer",
+  title: "Andrew Frenenski | Senior Full Stack Engineer",
   description:
-    "Senior .NET Full Stack Engineer with 13+ years of experience building scalable applications with C#, ASP.NET Core, React, TypeScript, SQL Server, and Azure.",
+    "Senior Full Stack Engineer with 14+ years of experience building scalable applications across full-stack, AI/ML, and data engineering.",
   keywords: [
-    "Senior .NET Full Stack Engineer",
-    "C#",
-    "ASP.NET Core",
-    "React",
-    "TypeScript",
-    "Azure",
+    "Senior Full Stack Engineer",
     "Full Stack",
+    "AI/ML",
+    "Data Engineering",
+    "Python",
+    "TypeScript",
+    "React",
+    "Machine Learning",
     "Austin TX",
+    "Microsoft",
+    "Google",
   ],
   authors: [{ name: "Andrew Frenenski" }],
   openGraph: {
-    title: "Andrew Frenenski | Senior .NET Full Stack Engineer",
+    title: "Andrew Frenenski | Senior Full Stack Engineer",
     description:
-      "Building scalable full-stack applications with .NET, React, SQL Server, and Azure.",
+      "Building scalable full-stack platforms, AI/ML systems, and data pipelines.",
     type: "website",
   },
 };

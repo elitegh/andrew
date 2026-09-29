@@ -1,6 +1,6 @@
 import { experience, personal } from "@/data/portfolio";
 import { SectionHeading } from "./SectionHeading";
-import { Briefcase } from "lucide-react";
+import { Briefcase, ExternalLink } from "lucide-react";
 
 export function Experience() {
   return (
@@ -15,7 +15,7 @@ export function Experience() {
         />
         <div className="relative space-y-12">
           <div className="absolute left-[19px] top-2 hidden h-[calc(100%-2rem)] w-px bg-border md:block" />
-          {experience.map((job, i) => (
+          {experience.map((job) => (
             <div key={job.company} className="relative md:pl-16">
               <div className="absolute left-0 top-2 hidden h-10 w-10 items-center justify-center rounded-full border-2 border-accent bg-card md:flex">
                 <Briefcase className="h-4 w-4 text-accent" />
@@ -24,10 +24,25 @@ export function Experience() {
                 <div className="mb-6 flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
                   <div>
                     <h3 className="font-display text-2xl font-bold text-foreground md:text-3xl">
-                      {job.company}
+                      {job.url ? (
+                        <a
+                          href={job.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 transition-colors hover:text-accent"
+                        >
+                          {job.company}
+                          <ExternalLink className="h-4 w-4 shrink-0 opacity-60" />
+                        </a>
+                      ) : (
+                        job.company
+                      )}
                     </h3>
                     <p className="mt-1 text-lg font-semibold text-accent">
                       {job.role}
+                    </p>
+                    <p className="mt-2 text-sm text-muted">
+                      {job.employmentType} · {job.locationType}
                     </p>
                   </div>
                   <div className="text-sm text-muted md:text-right">
@@ -35,6 +50,9 @@ export function Experience() {
                     <p>{job.location}</p>
                   </div>
                 </div>
+                <p className="mb-2 text-sm font-medium text-muted">
+                  {job.industryFocus}
+                </p>
                 <p className="mb-6 text-base leading-relaxed text-muted md:text-lg">
                   {job.summary}
                 </p>

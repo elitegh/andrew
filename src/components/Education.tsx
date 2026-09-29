@@ -1,5 +1,5 @@
 import { education } from "@/data/portfolio";
-import { GraduationCap } from "lucide-react";
+import { ExternalLink, GraduationCap } from "lucide-react";
 
 export function Education() {
   return (
@@ -13,10 +13,24 @@ export function Education() {
             Education
           </p>
           <h3 className="font-display text-2xl font-bold text-foreground md:text-3xl">
-            {education.school}
+            {education.url ? (
+              <a
+                href={education.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 transition-colors hover:text-accent"
+              >
+                {education.school}
+                <ExternalLink className="h-5 w-5 shrink-0 opacity-60" />
+              </a>
+            ) : (
+              education.school
+            )}
           </h3>
           <p className="mt-2 text-lg text-muted">{education.degree}</p>
-          <p className="mt-1 text-sm text-muted">{education.period}</p>
+          <p className="mt-1 text-sm text-muted">
+            {education.period} · {education.location}
+          </p>
         </div>
       </div>
     </section>

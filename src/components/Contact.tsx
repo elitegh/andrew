@@ -11,9 +11,9 @@ export function Contact() {
         <SectionHeading
           label="Contact"
           title="Let's build something scalable."
-          description="I am open to senior .NET full-stack engineering opportunities focused on C#, ASP.NET Core, React, TypeScript, Azure, backend engineering, cloud modernization, and scalable enterprise platforms."
+          description="I am open to senior full-stack, AI/ML, and data engineering opportunities focused on scalable platforms, intelligent services, analytics pipelines, and modern cloud products."
         />
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
           <a
             href={`mailto:${personal.email}`}
             className="group flex flex-col items-center rounded-2xl border border-border bg-card p-8 text-center transition-all hover:border-accent hover:shadow-lg hover:shadow-accent/10"
@@ -50,7 +50,7 @@ export function Contact() {
             <GithubIcon className="mb-4 h-8 w-8 text-accent" />
             <p className="mb-1 text-sm font-medium text-muted">GitHub</p>
             <p className="text-sm font-semibold text-foreground group-hover:text-accent">
-              @andrew128
+              {personal.githubHandle}
             </p>
           </a>
           <a
@@ -62,7 +62,7 @@ export function Contact() {
             <LinkedinIcon className="mb-4 h-8 w-8 text-accent" />
             <p className="mb-1 text-sm font-medium text-muted">LinkedIn</p>
             <p className="text-sm font-semibold text-foreground group-hover:text-accent">
-              /in/andrew-frenenski
+              {personal.linkedinHandle}
             </p>
           </a>
         </div>
